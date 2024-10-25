@@ -141,4 +141,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 ALLOWED_HOSTS = ['.vercel.app', '.now.sh']
 
-STATIC_ROOT = BASE_DIR / "staticfiles_build" / "staticfiles"
+STATIC_ROOT = BASE_DIR / "staticfiles"
