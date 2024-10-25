@@ -139,6 +139,6 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-ALLOWED_HOSTS = ['.vercel.app', '.now.sh']
+ALLOWED_HOSTS = ['.vercel.app', '.now.sh', 'http://127.0.0.1:8000/', 'localhost']
 
 STATIC_ROOT = BASE_DIR / "staticfiles"
