@@ -88,10 +88,10 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "mydatabase",
-        "USER": "mydatabaseuser",
-        "PASSWORD": "mypassword",
-        "HOST": "127.0.0.1",
+        "NAME": "verceldb",
+        "USER": "default",
+        "PASSWORD": "1EAMnF5QSpiO",
+        "HOST": "ep-lucky-dawn-a25jsuno-pooler.eu-central-1.aws.neon.tech",
         "PORT": "5432",
     }
 }
